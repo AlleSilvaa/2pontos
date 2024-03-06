@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+    username: ${DB_HOMOLOG_USERNAME:X}
+    password: ${DB_HOMOLOG_PASSWORD:x}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
